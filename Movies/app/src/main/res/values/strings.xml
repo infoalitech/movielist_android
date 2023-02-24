@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Movies</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome !</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="help_heading">Help</string>
+
+    <string name="help_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quam eaque labore voluptate laborum voluptatum cum vitae delectus quas dicta dolorum autem sequi nisi tempora, quisquam consequatur cupiditate provident quidem!</string>
+
+
+    <string name="about_heading">About</string>
+
+    <string name="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quam eaque labore voluptate laborum voluptatum cum vitae delectus quas dicta dolorum autem sequi nisi tempora, quisquam consequatur cupiditate provident quidem!</string>
 </resources>

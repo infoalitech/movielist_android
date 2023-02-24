@@ -7,4 +7,23 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="TextViewColor">#151313</color>
+    <color name="HeadingColor">#451E1E</color>
+    <color name="ListViewColor">#EDB1B1</color>
+    <color name="inputColor">#0E0D0D</color>
+
+    <color name="TextViewBackground">#3394DADA</color>
+    <color name="HeadingBackground">#3355B1B1</color>
+
+    <color name="ListViewBackground">#3379D8D8</color>
+    <color name="inputBackground">#FFFFFFFF</color>
+
+    <color name="ButtonBackground">#FFBB86FC</color>
+    <color name="ButtonText">#FF03DAC5</color>
+
+    <color name="popupBackground">#30ff</color>
+    <color name="popupHeadingColor">#170A0A</color>
+    <color name="popupTextColor">#291818</color>
 </resources>

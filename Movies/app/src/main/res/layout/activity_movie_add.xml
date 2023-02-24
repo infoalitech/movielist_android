@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieAdd"
+    android:background="@drawable/homebackground">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+            <TextView
+                android:id="@+id/logintext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Add Movie"
+                android:textSize="50dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:textColor="@color/HeadingColor"
+                android:background="@color/HeadingBackground"
+                />
+
+            <TextView
+                android:id="@+id/filmTitleColumntext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textColor="@color/TextViewColor"
+                android:background="@color/TextViewBackground"
+                />
+
+            <EditText
+                android:id="@+id/filmTitleColumnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textColor="@color/inputColor"
+                android:background="@color/inputBackground"
+                />
+
+            <TextView
+                android:id="@+id/filmReleaseYearColumntext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Release Year"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/TextViewColor"
+                android:background="@color/TextViewBackground"
+                />
+
+            <EditText
+                android:id="@+id/filmReleaseYearColumnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/inputColor"
+                android:background="@color/inputBackground"
+                android:padding="10dp"/>
+
+
+            <TextView
+                android:id="@+id/filmDurationColumntext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/TextViewColor"
+                android:background="@color/TextViewBackground"
+                />
+
+            <EditText
+                android:id="@+id/filmDurationColumnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textColor="@color/inputColor"
+                android:background="@color/inputBackground"
+                />
+
+            <TextView
+                android:id="@+id/filmDirectorColumntext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Film Director"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/TextViewColor"
+                android:background="@color/TextViewBackground"
+                />
+
+            <EditText
+                android:id="@+id/filmDirectorColumnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/inputColor"
+                android:background="@color/inputBackground"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/filmDistributedByColumntext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distributed By"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/TextViewColor"
+                android:background="@color/TextViewBackground"
+                />
+
+            <EditText
+                android:id="@+id/filmDistributedByColumnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/inputColor"
+                android:background="@color/inputBackground"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/filmImageColumntext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/TextViewColor"
+                android:background="@color/TextViewBackground"
+                />
+            <EditText
+                android:id="@+id/filmImageColumnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/inputColor"
+                android:background="@color/inputBackground"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/saveMovieId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="saveMovie"
+                android:text="Save Movie"
+                android:layout_margin="10dp"
+                android:textSize="30dp"
+                android:textColor="@color/ButtonText"
+                android:background="@color/ButtonBackground"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

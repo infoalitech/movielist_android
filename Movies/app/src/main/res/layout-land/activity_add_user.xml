@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUser"
+    >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="269dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:width="100dp"
+        android:text="Add User" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="272dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/textView5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:width="100dp"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/inputusername"
+        android:layout_below="@id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:width="100dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_below="@id/inputusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:width="100dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/inputpassword"
+        android:layout_below="@id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:width="100dp"
+        android:layout_margin="10dp" />
+        <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+            android:layout_below="@id/inputpassword"
+            android:width="100dp"
+            android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/textView7"
+        android:inputType="textPersonName"
+        android:width="100pt"
+        android:layout_margin="10pt"/>
+
+
+
+    <Button
+        android:id="@+id/saveUserbtn"
+        android:onClick="saveUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save User"
+        android:layout_below="@id/inputemail"
+        android:width="100pt"
+        android:layout_margin="10pt"/>
+</RelativeLayout>

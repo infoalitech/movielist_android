@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieListView"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="200dp"
+            android:text="Title"
+            android:textFontWeight="700"
+            android:layout_height="match_parent"
+            android:textColor="@color/TextViewColor"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/filmTitleField"
+            android:textFontWeight="700"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/TextViewColor"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="200dp"
+            android:text="Release Year: "
+            android:layout_height="match_parent"
+            android:textColor="@color/TextViewColor"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/filmReleaseYearField"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="@color/TextViewColor"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="200dp"
+            android:text="Duration: "
+            android:layout_height="match_parent"
+            android:textColor="@color/TextViewColor"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/filmDurationField"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="@color/TextViewColor"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+</LinearLayout>
